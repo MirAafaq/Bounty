@@ -1,0 +1,73 @@
+/* Style for the main container */
+div[style] {
+    padding: 10% 20%;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Style for the mat-card */
+  mat-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* Style for form fields */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  mat-form-field input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style for the buttons */
+  button[mat-raised-button] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  button[mat-raised-button]:not([disabled]) {
+    background-color: #1976d2;
+    color: #fff;
+  }
+  
+  button[mat-raised-button]:hover:not([disabled]) {
+    background-color: #1565c0;
+  }
+  
+  button[mat-raised-button][disabled] {
+    background-color: #ddd;
+    color: #999;
+  }
+  
+ 
+  
+  /* Responsive design */
+  @media (max-width: 480px) {
+    div[style] {
+      padding: 10%;
+    }
+  
+    mat-card {
+      padding: 15px;
+    }
+  
+    button[mat-raised-button] {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+  }
+  
